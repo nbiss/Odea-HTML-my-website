@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    display: flex;
+    background-color: beige;
+    flex-direction: column;
+}
+h1 {
+    display: flex;
+    color: white;
+    text-align: left;
+    font-size: 70px;
+    font: Arial;
+
+}
+.box_header{
+    display: flex;
+    background-color: blue;
+    width: 100vw;
+    height: 13vh;    
+    border: 100px;
+    border-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}   
+.button_container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    height: 5vh;
+    width: calc(100vw - 20px);
+    position: absolute;
+    top: 13vh;
+    padding-right: 20px;
+
+}
+.button_container button{
+    padding: 12px;
+    margin: 5px 0;
+    background: #2ecc71;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: none;
+    cursor: pointer;
+
+}
