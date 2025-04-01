@@ -1,8 +1,10 @@
 body{
     margin: 0;
-    display: flex;
     background-color: beige;
+    display: flex;
     flex-direction: column;
+    align-items: left;
+    justify-content: left;
 }
 h1 {
     display: flex;
@@ -12,17 +14,22 @@ h1 {
     font: Arial;
 
 }
+h2{
+    display: flex;
+    justify-content: left;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font: Times;
+    padding-left: 20px;
+}
 .box_header{
     display: flex;
     background-color: blue;
     width: 100vw;
     height: 13vh;    
     border: 100px;
-    border-color: black;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-
+    
 }   
 .button_container{
     display: flex;
@@ -31,14 +38,12 @@ h1 {
     gap: 10px;
     height: 5vh;
     width: calc(100vw - 20px);
-    position: absolute;
-    top: 13vh;
     padding-right: 20px;
+    padding-top: 20px;
 
 }
 .button_container button{
     padding: 12px;
-    margin: 5px 0;
     background: #2ecc71;
     color: white;
     font-size: 16px;
@@ -46,4 +51,37 @@ h1 {
     border-width: none;
     cursor: pointer;
 
+}
+.button_container button:hover{
+    color: #000000;
+}
+.list{
+    display: flex;
+    font-size: 40px;
+    color: pink;
+
+}
+.circle_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+    border: solid;
+    border-color: #000000;
+    border-width: 3px;
+}
+.circle_container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(29, 255, 29);
+    background-color: red;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    border: none;
 }
