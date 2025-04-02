@@ -19,9 +19,9 @@ function updatePosition(){
 }
 
 function getRndInteger(min, max) {
-    return (Math.random() * (max - min + 1) + min);
+    return (Math.random() * (max - min + 1));
 }
-
 
 const circle_button = document.getElementById('circle_button')
 circle_button.addEventListener("mouseenter", updatePosition)
+updatePosition();
