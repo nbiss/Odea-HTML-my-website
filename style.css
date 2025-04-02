@@ -72,6 +72,9 @@ h2{
     border: solid;
     border-color: #000000;
     border-width: 3px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 .circle_container button{
     display: flex;
@@ -84,4 +87,6 @@ h2{
     height: 50px;
     width: 50px;
     border: none;
+    font-size: 20px;
 }
+
