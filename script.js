@@ -30,4 +30,4 @@ function getRndInteger(min, max) {
 
 //event listeners
 const circle_button = document.getElementById('circle_button')
-circle_button.addEventListener("click", updatePosition)
+circle_button.addEventListener("mouseenter", updatePosition)
